@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python
+Module=gedit-vertical-tabs
+IAge=3
+Name=Gedit Vertical Tabs
+Description=Display tabs in a vertical column along the side of the window
+Authors=Gearoid Murphy
+Version=3.0.0
+
