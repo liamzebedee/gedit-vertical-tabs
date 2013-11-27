@@ -19,7 +19,7 @@ class VerticalTabsPlugin(GObject.Object, Gedit.WindowActivatable):
         GObject.Object.__init__(self)
 
     def do_activate(self):
-        widget_search(self.window, "GeditNotebook") [0].set_tab_pos(Gtk.PositionType.LEFT)
+        widget_search(self.window, "GeditNotebook") [0].set_tab_pos(Gtk.PositionType.RIGHT)
 
     def do_deactivate(self):
         widget_search(self.window, "GeditNotebook") [0].set_tab_pos(Gtk.PositionType.TOP)
